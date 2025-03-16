@@ -54,16 +54,16 @@ button:hover {
 
 /* Renk Ayarları */
 button:nth-child(1) { background: #ff4d4d; color: white; } /* C (Temizleme) */
-button:nth-child(17) { background: #00c6ff; color: white; } /* = (Sonuç) */
+button:nth-child(16) { background: #00c6ff; color: white; } /* = (Sonuç) */
 button:nth-child(5), 
-button:nth-child(10), 
-button:nth-child(15), 
-button:nth-child(18) { 
+button:nth-child(9), 
+button:nth-child(13), 
+button:nth-child(17) { 
     background: #0072ff; 
     color: white; 
 } /* İşlem Butonları */
 
-button:not(:nth-child(1)):not(:nth-child(17)):not(:nth-child(5)):not(:nth-child(10)):not(:nth-child(15)):not(:nth-child(18)) {
+button:not(:nth-child(1)):not(:nth-child(16)):not(:nth-child(5)):not(:nth-child(9)):not(:nth-child(13)):not(:nth-child(17)) {
     background: #e0e0e0; 
     color: #333; 
 }
