@@ -1,1 +1,1 @@
-# hesap-makinesi
+# My first git project.
